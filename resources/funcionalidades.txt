@@ -1,0 +1,13 @@
+1.Incluir dados OK OK OK
+2.Alterar dados pelo código OK OK Ok
+3.Alterar dados pelo nome OK OK
+4.Excluir dados pelo código OK OK OK
+5.Excluir dados pelo nome OK OK OK
+6.Listar os dados cadastrados OK OK OK
+7.Listar os dados cadastrados em uma ordem ascendente OK OK OK
+8.Listar os dados cadastrados em ordem descedente OK OK OK
+9.Listar dados com Inner Join OK OK OK
+10.Mostrar soma total dos dados OK OK OK
+11.Apresentar a média dos dados cadastrados OK OK OK
+12.Listar com agrupamento OK OK OK
+13.Sair OK

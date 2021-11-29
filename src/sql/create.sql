@@ -1,0 +1,21 @@
+CREATE DATABASE escola;
+
+USE escola;
+
+CREATE TABLE turma(
+    id INT NOT NULL AUTO_INCREMENT,
+    nome VARCHAR(30) NOT NULL,
+    PRIMARY KEY (id)
+);
+
+CREATE TABLE aluno(
+    id INT NOT NULL AUTO_INCREMENT,
+    fk_turma INT NOT NULL,
+
+    nome VARCHAR(50) NOT NULL,
+    nota1 DOUBLE NOT NULL,
+    nota2 DOUBLE NOT NULL,
+
+    PRIMARY KEY (id),
+    FOREIGN KEY (fk_turma) REFERENCES turma (id) ON DELETE CASCADE
+);
